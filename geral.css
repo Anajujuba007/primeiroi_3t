@@ -1,16 +1,22 @@
 calculadora{
-     background-color: blue;
-     width: 200px;    
-     padding: 10px;
-}
+     background-color: rgb(59, 7, 107);
+     width: 200px;
+     margin: 10px;
+ }
+ #bntCalc {
+     background-color: rgb(14, 203, 209);
+     color: rgb(250, 200, 0);
+     padding: 5px;
+ }
 
-#btnCalc {
-   background-color: blueviolet;
-   color: cornsilk;
-   padding: 5px;
-}
-#btnCalc:hover {
-    background-color: crimson;
-    color: darkblue;
+#bntCalc:hover {
+    background-color: rgb(2, 25, 26);
+    color: rgb(255, 220, 220);
     cursor: pointer;
+}
+.spResultado{
+    background-color: black;
+    color: chartreuse;
+    padding: 4px;
+    margin: 2px;
 }
